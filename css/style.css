@@ -506,6 +506,11 @@ body {
   margin-right: 0;
 }
 
+.footer__arrow-down {
+  margin-left: 6px;
+  margin-right: 16px;
+}
+
 .footer {
   padding-top: 50px;
   padding-bottom: 70px;
