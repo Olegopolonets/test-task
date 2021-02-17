@@ -345,6 +345,7 @@ body {
 }
 .footer__item-list {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -530,4 +531,15 @@ flex-wrap: wrap;
   margin-top: 20px;
 }
 
+}
+
+@media (max-width: 359px) {
+  .footer__bottom{
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  } 
+  .footer__copy{
+    margin-top: 10px;
+  }
 }
