@@ -93,6 +93,7 @@ body {
   margin-bottom: 65px;
 }
 .goods__title{
+  margin-bottom: 32px;
   font-weight: 600;
   font-size: 24px;
   line-height: 25px;
@@ -339,6 +340,8 @@ body {
 .footer__inner {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #F2F6FA;
 }
 .footer__item-list {
   margin: 0;
@@ -393,11 +396,6 @@ body {
   text-align: center;
 }
 
-.footer__inner {
-  padding-bottom: 40px;
-  border-bottom: 1px solid #F2F6FA;
-}
-
 .footer__bottom{
   color: #fff;
 }
@@ -406,9 +404,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 36px;
+  align-items: flex-end;
 }
 
-.footer__lang-list, .footer__lang-text, .footer__copy-text {
+.footer__lang-list,.footer__lang-text,.footer__copy-text {
   font-size: 12px;
   line-height: 16px;
 }
@@ -420,4 +419,110 @@ body {
 .footer__arrow-down{
   margin-left: 12px;
   margin-right: 36px;
+}
+
+/* Responsive */
+
+@media (max-width: 414px) {
+  .navigation-item:not(:first-child){
+    display: none;
+  } 
+
+  .log-in {
+    margin-left: 5px;
+  }
+
+  .lang-list {
+    margin: 0;
+  }
+
+  .goods {
+    margin-top: 36px;
+    margin-bottom: 35px;
+  }
+
+  .goods__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+
+.category {
+  margin-bottom: 25px;
+  padding: 8px 30px;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.cards {
+  justify-content: center;
+}
+
+.card__item-general {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+.card__item {
+  width: 330px;
+  height: 350px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.advantages {
+  margin-bottom: 55px;
+}
+
+.advantage-title {
+  font-size: 20px;
+  line-height: 21px;
+  margin-bottom: 4px;
+}
+
+.advantage-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.advantage-icon {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.services__item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer__copy {
+  margin-right: 0;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.footer__inner {
+flex-wrap: wrap;
+}
+
+.footer__logo{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.social-items{
+  margin: 0 auto; 
+  margin-top: 20px;
+}
+
 }
